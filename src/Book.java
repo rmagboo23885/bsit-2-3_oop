@@ -1,9 +1,9 @@
 public class Book {
 
-    private String title; "Becoming Led Zeppelin"
-    private String author; "Jimmy Page"
-    private int pages;444;
-    private boolean isAvailable;
+  private String title = "Becoming Led Zeppelin";
+  private String author = "Jimmy Page";
+  private int pages = 444;
+  private boolean isAvailable;
 
  
     public Book(String title, String author, int pages) {
