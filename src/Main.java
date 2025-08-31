@@ -1,7 +1,17 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+ public class Main {
     public static void main(String[] args) {
-        System.out.println("Main Branch!");
+        Book book1 = new Book("The Catcher in the Rye", "J.D. Salinger", 277);
+        Book book2 = new Book("Pride and Prejudice", "Jane Austen", 279);
+        Book book3 = new Book("The Great Gatsby", "F. Scott Fitzgerald", 180);
+
+        book1.displayInfo();
+        book2.displayInfo();
+        book3.displayInfo();
+
+        book1.borrowBook();
+        book1.displayInfo();
+
+        book1.returnBook();
+        book1.displayInfo();
     }
 }
