@@ -1,7 +1,7 @@
 public class Book {
 
-    private String title; Hallelujah
-    private String author; Francisco Gaudencio Lope Belardo Mañalac
+    private String title; "Becoming Led Zeppelin"
+    private String author; "Jimmy Page"
     private int pages;444;
     private boolean isAvailable;
 
